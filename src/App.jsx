@@ -1,7 +1,7 @@
 import './App.css'
 import Home from "./layout/Home.jsx";
 import Portfolio from "./layout/Portfolio.jsx";
-import Services from "./layout/Services.jsx";
+// import Services from "./layout/Services.jsx";
 import About from "./layout/About.jsx";
 import Contacts from "./layout/Contacts.jsx";
 import Footer from "./layout/Footer.jsx";
@@ -13,7 +13,7 @@ function App() {
       <>
           < Navbar/>
           < Home />
-          < Services />
+          {/* < Services /> */}
           < Portfolio />
           < About />
           < Contacts />
